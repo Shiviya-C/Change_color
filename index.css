@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+}
+.wrapper{
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px inset rgba(0,0,0,0.2);
+    border-radius: 20px;
+    box-shadow: 20px 25px 15px rgba(0,0,0,0.1);
+    background-color: white;
+}
+.text{
+    font-size: 50px;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 38px;
+    border: none;
+    box-shadow: 3px 3px 2px rgba(3, 15, 173, 0.5);
+    margin: 1rem 0 2rem 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+button:hover{
+    background:linear-gradient(to right,rgba(240, 5, 5, 0.897),rgb(172, 184, 3));
+}
